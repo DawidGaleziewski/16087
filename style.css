@@ -64,6 +64,34 @@ a {
     background-color: #e16262;
 }
 
+#main__portfolio {
+    color: #fabc60;
+}
+
+.portfolio__square {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 16px;
+}
+
+.portfolio__square:first-of-type{
+    border: 8px solid #11144C;
+}
+
+.portfolio__square:nth-of-type(2){
+    border: 8px solid #3a9679;
+}
+
+.portfolio__square:nth-of-type(3){
+    border: 8px solid #e16262;
+}
+
+/* .main__contact__form > [type="input"] {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+} */
+
 
 
 
