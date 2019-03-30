@@ -20,21 +20,25 @@
 <nav class="main-nav">
     <ul>
         <li class="main-nav__item">
-            <a href="#main__about-us" class="main-nav__link">About us</a>
+            <a href="#main__about-us" class="main-nav__link main-nav__link--about">About us</a>
         </li>
         <li class="main-nav__item">
-            <a href="#main__skills" class="main-nav__link">Skills</a>
+            <a href="#main__skills" class="main-nav__link main-nav__link--skills">Skills</a>
         </li>
         <li class="main-nav__item">
-            <a href="#main__portfolio" class="main-nav__link">Portfolio</a>
+            <a href="#main__portfolio" class="main-nav__link main-nav__link--portfolio">Portfolio</a>
         </li>
         <li class="main-nav__item">
-            <a href="#main__contact" class="main-nav__link">Contact</a>
+            <a href="#main__contact" class="main-nav__link main-nav__link--contact">Contact</a>
         </li>
+        +
     </ul>
 </nav>
 
 <main>
+<!-- 2. Sekcja "About us", a w niej:
+- nagłówek
+- przykładowy tekst -->
     <section id="main__about-us">
         <h2>About us</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
@@ -42,19 +46,25 @@
              laborum animi reiciendis dolores quis 
              sequi aut dolorum!</p>
     </section>
+
+<!-- 3> Sekcja skills -->
     <section id="main__skills">
         <h2 class="main__skills__header">Skills</h2>
-        <div class="skills__square"></div>
-        <div class="skills__square"></div>
-        <div class="skills__square"></div>
-        <div class="skills__square"></div>
+        <div class="skills__square skills__square--first"></div>
+        <div class="skills__square skills__square--second"></div>
+        <div class="skills__square skills__square--third"></div>
+        <div class="skills__square skills__square--fourth"></div>
     </section>
+
+<!-- 4. Sekcja "Portfolio": -->
     <section id="main__portfolio">
         <h2>Portfolio</h2>
         <div class="portfolio__square"></div>
         <div class="portfolio__square"></div>
         <div class="portfolio__square"></div>
     </section>
+
+<!--5. Sekcja "Contact": -->
     <section id="main__contact">
         <h2>John Doe</h2>
         <address>
